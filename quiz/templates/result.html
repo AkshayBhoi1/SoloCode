@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+   {% block content %}
+
+<div class="my-5">
+<div class="container">
+   <div class="card mb-3 " style="width:600px; margin-left:250px">
+      <img src="{% static 'img/result.jpg' %}"   class="card-img-top" alt="Result">
+      <div class="card-body">
+
+          <h5 class="card-title">Score: {{score}}</h5>
+          <div class="container">
+  <div class="row">
+    <div class="col">
+      <p class="card-text">Percentage: {{percent}}%</p>
+                <p class="card-text">Correct answers: {{correct}}</p>
+                <p class="card-text">Incorrect answers: {{wrong}}</p>
+                <p class="card-text">Total questions: {{total}}</p>
+    </div><script>
+      a={{a}}
+  </script>
+      {% if 1 == a %}
+    <div class="col ">
+     <a href="{% url 'gen_cer'%}"><button style="align: center; position: absolute; bottom:50px;" type="submit" class="btn btn-primary ms-auto">
+                    Genrate Certificate
+     </button></a>
+    </div>
+      {% endif %}
+  </div>
+</div>
+
+
+
+        <p class="card-text text-muted"><h5>All the best for next quiz!</h5></p>
+
+      </div>
+    </div>
+</div>
+</div>
+</form>
+    {% endblock content %}
+

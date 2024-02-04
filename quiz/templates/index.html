@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+  <div class="container-md my-5">
+    <div class="row">
+      <div class="col-md my-3">
+        <div class="card " >
+          <img src="{% static 'testimg/c.svg' %}" class="card-img-top test-img" alt="C language">
+          <div class="card-body">
+            <!-- <h5 class="card-title text-center">C language </h5> -->
+           
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <center><a href="{% url 'c'%}"><button class="btn btn-primary my-2" type="button">Attempt Test</button></a></center>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md my-3">
+        <div class="card" >
+          <img src="{% static 'testimg/python.svg' %}" class=" test-img card-img-top" alt="Python Logo">
+          <div class="card-body">
+            <!-- <h5 class="card-title  text-center">Python</h5> -->
+           
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <center> <a href="{% url 'python'%}"><button class="btn btn-primary my-2" type="button">Attempt Test</button></a></center>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md my-3">
+        <div class="card">
+          <img src="{% static 'testimg/php.svg' %}" class="test-img card-img-top" alt="PHP logo">
+          <div class="card-body">
+            <!-- <h5 class="card-title text-center">PHP</h5> -->
+    
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <center> <a href="{% url 'php'%}"><button class="btn btn-primary my-2" type="button">Attempt Test</button></a></center>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md my-3">
+        <div class="card" >
+          <img src="{% static 'testimg/javascript.svg' %}" class="test-img card-img-top" alt="JavaScript Logo">
+          <div class="card-body">
+            <!-- <h5 class="card-title text-center">JavaScript</h5> -->
+          
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <center><a href="{% url 'js'%}"><button class="btn btn-primary my-2" type="button">Attempt Test</button></a></center>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md my-3">
+        <div class="card" >
+          <img src="{% static 'testimg/java.svg' %}" class="test-img card-img-top" alt="Java Logo">
+          <div class="card-body">
+            <!-- <h5 class="card-title text-center">Java</h5> -->
+     
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <center><a href="{% url 'java'%}"><button class="btn btn-primary my-2" type="button">Attempt Test</button></a></center>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md my-3">
+        <div class="card" >
+          <img src="{% static 'testimg/cpp.svg' %}" class="test-img card-img-top " alt="Cpp Logo">
+          <div class="card-body">
+            <!-- <h5 class="card-title text-center">C++</h5> -->
+     
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <center><a href="{% url 'cpp'%}"><button class="btn btn-primary my-2" type="button">Attempt Test</button></a></center>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+{% endblock %}

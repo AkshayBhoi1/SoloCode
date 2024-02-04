@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>PHP Programming</title>
+</head>
+<body>
+<form method="POST">
+{% csrf_token %}
+  <div class="container-md my-5">
+    <div class="card ">
+      <div class="card-header text-center">
+       <h4>PHP Programming</h4> 
+      </div>
+      <div class="card-body ">
+        <div class="card my-2">
+
+          <!-- quetion 1 -->
+
+          <div class="card-header ">
+            What is PHP?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q1" value="option1">A) PHP is an open-source programming language
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q1" value="option2">B) PHP is used to develop dynamic and interactive websites
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q1" value="option3">C) PHP is a server-side scripting language
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q1" value="option4">D) All of the mentioned
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 2 -->
+
+          <div class="card-header my-2 ">
+            2) What does PHP stand for?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q2" value="option1">A) PHP stands for Preprocessor Home Page
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q2" value="option2">B) PHP stands for Pretext Hypertext Processor
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q2" value="option3">C) PHP stands for Hypertext Preprocessor
+              <label class="form-check-label" for="radio3"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q2" value="option4">D) PHP stands for Personal Hyper Processor
+              <label class="form-check-label" for="radio4"></label>
+            </div>
+          </div>
+
+          <!-- quetion 3 -->
+
+          <div class="card-header my-2 ">
+            3) Which of the following is not a variable scope in PHP?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q3" value="option1">A) Extern
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q3" value="option2">B) Local
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q3" value="option3">C) Static
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q3" value="option4">D) Global
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 4 -->
+
+          <div class="card-header my-2 ">
+            4) Which of the following is the use of strlen() function in PHP?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q14" value="option1">A) The strlen() function returns the type of string
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q14" value="option2">B) The strlen() function returns the length of string
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q14" value="option3">C) The strlen() function returns the value of string
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q14" value="option4">D) The strlen() function returns both value and type of string
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+          <!-- quetion 5 -->
+
+          <div class="card-header my-2 ">
+            5) What does PEAR stands for?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q5" value="option1">A) PHP extension and application repository
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q5" value="option2">B) PHP enhancement and application reduce
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q5" value="option3">C) PHP event and application repository
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q5" value="option4">D) None of the above
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+          <!-- quetion 6 -->
+
+          <div class="card-header my-2 ">
+            6) What is the use of isset() function in PHP?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q6" value="option1">A) The isset() function is used to check whether variable is set or not
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q6" value="option2">B) The isset() function is used to check whether the variable is free or not
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q6" value="option3">C) The isset() function is used to check whether the variable is string or not
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q6" value="option4">D) None of the above
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 7 -->
+
+          <div class="card-header my-2 ">
+            7) Which of the following function is used to set cookie in PHP?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q7" value="option1">A) createcookie()
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q7" value="option2">B) makecookie()
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q7" value="option3">C) setcookie()
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q7" value="option4">D) None of the above
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 8 -->
+
+          <div class="card-header my-2 ">
+            8) Which of the following is the correct way to print "Hello World" in PHP?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q8" value="option1">A) "Hello World";
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q8" value="option2">B) write("Hello World");
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q8" value="option3">C) echo "Hello World";
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q8" value="option4">D) None of the above
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 9 -->
+
+          <div class="card-header my-2 ">
+            9) trim() in PHP is used for?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q9" value="option1">A)Removes uppercase alphabet
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q9" value="option2">B)Removes whitespaces
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q9" value="option3">C) Removes lowercase alphabet
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q9" value="option4">D) Removes underscore
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 10 -->
+
+          <div class="card-header my-2 ">
+            10) Which of the following type of variables are sequences of characters, like 'PHP supports string operations.'?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q10" value="option1">A) Strings
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q10" value="option2">B) Arrays
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q10" value="option3">C) Objects
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q10" value="option4"> D) Resources
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+          <div class="px-5 my-2 mx-auto">
+           <input class="btn btn-success" type="submit" value="Submit Exam">
+        </div>
+
+        </div>
+        <!-- <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div> -->
+        <div class="card-footer text-muted text-center">
+          Good luck for the exam !
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </div>
+</form>
+</body>
+
+</html>
+
+
+<!-- Answers
+1) D) All of the mentioned
+2) C) PHP stands for Hypertext Preprocessor
+3) A) Extern
+4) B) The strlen() function returns the length of string
+5) A) PHP extension and application repository
+6) A) The isset() function is used to check whether variable is set or not
+7) C) setcookie()
+8) C) echo "Hello World";
+9) B)Removes whitespaces
+10) A) Strings
+
+ -->

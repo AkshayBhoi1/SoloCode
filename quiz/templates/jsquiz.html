@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>JavaScript Programming</title>
+</head>
+
+<body>
+<form method="POST">
+{% csrf_token %}
+  <div class="container-md my-5">
+    <div class="card ">
+      <div class="card-header text-center">
+       <h4>Javascript Programming</h4>
+      </div>
+      <div class="card-body ">
+        <div class="card my-2">
+
+          <!-- quetion 1 -->
+
+          <div class="card-header ">
+           1) Which of the following is correct about JavaScript?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q1" value="option1">A) JavaScript is an Object-Based language
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q1" value="option2">B) JavaScript is Assembly-language
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q1" value="option3">C) JavaScript is an Object-Oriented language
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q1" value="option4"> D) JavaScript is a High-level language
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 2 -->
+
+          <div class="card-header my-2 ">
+           2) Which of the following is not javascript data types?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q2" value="option1">A) Null type
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q2" value="option2">B) Undefined type
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q2" value="option3">C) Number type
+              <label class="form-check-label" for="radio3"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q2" value="option4">D) Float
+              <label class="form-check-label" for="radio4"></label>
+            </div>
+          </div>
+
+          <!-- quetion 3 -->
+
+          <div class="card-header my-2 ">
+            3) JavaScript is _______ language.
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q3" value="option1">A) Application
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q3" value="option2">B) Scripting
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q3" value="option3">C) Programming
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q3" value="option4">D) None of These
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 4 -->
+
+          <div class="card-header my-2 ">
+            4) Which company developed JavaScript?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q14" value="option1">A) Sun Microsystems
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q14" value="option2">B) IBM
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q14" value="option3">C) Bell Labs
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q14" value="option4">D) Netscape
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+          <!-- quetion 5 -->
+
+          <div class="card-header my-2 ">
+            5) Which of the following keywords is used to define a variable in Javascript?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q5" value="option1">A) Var
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q5" value="option2">B) let
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q5" value="option3">C) Both A and B
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q5" value="option4">D) None of the above
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+          <!-- quetion 6 -->
+
+          <div class="card-header my-2 ">
+            6) Which of the following methods is used to access HTML elements using Javascript?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q6" value="option1">A) getElementbyid()
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q6" value="option2">B) getElementbyClassName()
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q6" value="option3">C) Bothe A and B
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q6" value="option4">None of the above
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 7 -->
+
+          <div class="card-header my-2 ">
+            7) Upon encountering empty statements, what does the Javascript Interpreter do?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q7" value="option1">A) Throws an error
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q7" value="option2">B) Ignores the statements
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q7" value="option3">C) Gives a warning
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q7" value="option4">D) None of the above
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 8 -->
+
+          <div class="card-header my-2 ">
+            8) Which of the following methods can be used to display data in some form using Javascript?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q8" value="option1">A) document.write()
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q8" value="option2">B) console.log()
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q8" value="option3">C) window.alert()
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q8" value="option4">D) All of the above
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 9 -->
+
+          <div class="card-header my-2 ">
+            9) How can a datatype be declared to be a constant type?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q9" value="option1">const
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q9" value="option2">var
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q9" value="option3">let
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q9" value="option4">constant
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 10 -->
+
+          <div class="card-header my-2 ">
+            10) What keyword is used to check whether a given property is valid or not?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q10" value="option1">A) in
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q10" value="option2">B) is in
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q10" value="option3">C) exists
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q10" value="option4">D) lies
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+          <div class="px-5 my-2 mx-auto">
+           <input class="btn btn-success" type="submit" value="Submit Exam">
+        </div>
+
+        </div>
+        <!-- <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div> -->
+        <div class="card-footer text-muted text-center">
+          Good luck for the exam !
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </div>
+</form>
+</body>
+
+</html>
+
+
+<!-- Answers
+
+  1) A) JavaScript is an Object-Based language
+
+-->

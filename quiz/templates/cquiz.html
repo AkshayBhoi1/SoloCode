@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>C Programming</title>
+  </head>
+
+<body>
+<form method="POST">
+{% csrf_token %}
+  <div class="container-md my-5">
+    <div class="card ">
+      <div class="card-header text-center">
+       <h4>C Programming</h4> 
+      </div>
+      <div class="card-body ">
+
+        <div class="card my-2">
+
+          <!-- quetion 1 -->
+
+          <div class="card-header ">
+          1) Choose a right C Statement.
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q1" value="option1">A) Loops or Repetition block executes a group of statements repeatedly.
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio2" name="q1" value="option2">B) Loop is usually executed as long as a condition is met.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q1" value="option3">C) Loops usually take advantage of Loop Counter.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q1" value="option4">D) All the above.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 2 -->
+
+          <div class="card-header my-2 ">
+            2) What is a String in C Language.?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q2" value="option1">A) String is a new Data Type in C.
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q2" value="option2">B) String is an array of Characters with null character as the last element of array.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q2" value="option3">C) String is an array of Characters with null character as the first element of array.
+              <label class="form-check-label" for="radio3"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q2" value="option4">D) String is an array of Integers with 0 as the last element of array.
+
+              <label class="form-check-label" for="radio4"></label>
+            </div>
+          </div>
+
+          <!-- quetion 3 -->
+
+          <div class="card-header my-2 ">
+           3) What is an Escape Sequence in C language.?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q3" value="option1">A) An escape sequence is a combination of two characters starting with Back Slash always.
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q3" value="option2">B) An escape sequence is usually part of a string to tell compiler to produce New Lines, New tabs, Single or Double quotes etc
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q3" value="option3">C) An escape sequence is used to format the output to look in desired way.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q3" value="option4">D) All the above.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 4 -->
+
+          <div class="card-header my-2 ">
+            4) All keywords in C are in ____________.
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q14" value="option1">A) LowerCase letters.
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q14" value="option2">B) UpperCase letters.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q14" value="option3">C) CamelCase letters.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q14" value="option4">D) None of the mentioned.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+          <!-- quetion 5 -->
+
+          <div class="card-header my-2 ">
+            5) Which of the following cannot be a variable name in C?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio1" name="q5" value="option1">A) volatile.
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q5" value="option2">B) true.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q5" value="option3">C) friend.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q5" value="option4">D) export
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+          <!-- quetion 6 -->
+
+          <div class="card-header my-2 ">
+            6) Which of the following is NOT possible with any 2 operators in C?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q6" value="option1">A) Different precedence, same associativity.
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q6" value="option2">B) Different precedence, different associativity.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q6" value="option3">C) Same precedence, different associativity.
+
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q6" value="option4">D) All of the mentioned.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 7 -->
+
+          <div class="card-header my-2 ">
+           7) Which one is not a reserve keyword in C Language?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q7" value="option1">A) auto.
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q7" value="option2">B) main.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q7" value="option3">C) case.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q7" value="option4">D) register.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 8 -->
+
+          <div class="card-header my-2 ">
+            8) Which of the following comment is correct when a macro definition includes arguments?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q8" value="option1">A) The opening parenthesis should immediately follow the macro name.
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q8" value="option2">B) There should be at least one blank between the macro name and the opening parenthesis.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q8" value="option3">C) There should be only one blank between the macro name and the opening parenthesis.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q8" value="option4">D) All the above comments are correct.
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 9 -->
+
+          <div class="card-header my-2 ">
+            9) What is the valid range of numbers for int type of data?
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q9" value="option1">A) 0 to 256
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q9" value="option2">B) -32768 to +32767
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q9" value="option3">C) -65536 to +65536
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q9" value="option4">D) No specific range
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+
+
+          <!-- quetion 10 -->
+
+          <div class="card-header my-2 ">
+           10) The maximum length of a variable in C is ___
+          </div>
+          <div class="card-body float-start">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="q10" value="option1">A) 8
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q10" value="option2">B) 16
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q10" value="option3">C) 31
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="q10" value="option4">D) 64
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+          </div>
+          <div class="px-5 my-2 mx-auto">
+          <input class="btn btn-success" type="submit" value="Submit Exam">
+        </div>
+        <!-- <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div> -->
+        <div class="card-footer text-muted text-center">
+          Good luck for the exam !
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </div>
+  </form>
+</body>
+
+</html>
+
+
+<!-- Answers Lists
+1) D
+2) B
+3) D
+4) A
+5) A
+6) C
+7) B
+8) A
+9) B
+10) A
+ -->
